@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+        <!-- Bootstrap 4 navbar from https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+      <nav>
+          <!-- Links -->
+          <ul>
+              <a href="/">Homepage</a>
+              <li>
+                  <a href="/nick">About</a>
+              </li>
+              <li>
+                  <a href="/project">Projects</a>
+              </li>
+                  <li>
+                  <a href="/contact">Contact</a>
+          </ul>
+      </nav>
+      {{!-- I tried to hotlink image here in the layout.hbs and it does not display the image either. I haven't been shown how to link an image and it isn't the same way as standard HTML --}}
+      {{!-- <img src="https://www.facebook.com/photo?fbid=10160676879419698&set=a.10150095633034698" alt="text"> --}}
+    {{{body}}}
+
+  </body>
+  <footer>Nick Brazda - 2021</footer>
+</html>
